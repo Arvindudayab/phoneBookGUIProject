@@ -207,7 +207,7 @@ public class Main extends Application {
         layout.setLeft(leftLayout);
         layout.setRight(rightLayout);
 
-        Scene scene = new Scene(layout, 800, 450);
+        scene = new Scene(layout, 800, 450);
         window.setScene(scene);
         window.show();
     }
