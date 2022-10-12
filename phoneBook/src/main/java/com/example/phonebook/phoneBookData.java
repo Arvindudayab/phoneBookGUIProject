@@ -40,7 +40,7 @@ public class phoneBookData {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String firstName) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -48,7 +48,7 @@ public class phoneBookData {
         return address;
     }
 
-    public void setAddress(String lastName) {
+    public void setAddress(String address) {
         this.address = address;
     }
 
@@ -56,7 +56,7 @@ public class phoneBookData {
         return city;
     }
 
-    public void setCity(String firstName) {
+    public void setCity(String city) {
         this.city = city;
     }
 
@@ -64,7 +64,7 @@ public class phoneBookData {
         return state;
     }
 
-    public void setState(String lastName) {
+    public void setState(String state) {
         this.state = state;
     }
 
@@ -72,7 +72,7 @@ public class phoneBookData {
         return zipCode;
     }
 
-    public void setZipCode(String firstName) {
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
 
